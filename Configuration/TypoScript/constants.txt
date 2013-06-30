@@ -1,0 +1,10 @@
+plugin.tx_armgmap {
+	view {
+		# cat=plugin.tx_armgmap/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:arm_gmap/Resources/Private/Templates/
+	}
+	persistence {
+		# cat=plugin.tx_armgmap//a; type=int+; label=Default storage PID
+		storagePid = 
+	}
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'arm_gmap'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_armgmap.pi1_sheet1_title">Map Settings</label>
+			<label index="tx_armgmap.pi1_width">Width</label>
+			<label index="tx_armgmap.pi1_height">Height</label>
+			<label index="tx_armgmap.pi1_zoom">Zoom</label>
+			<label index="tx_armgmap.pi1_container">Map div id (HTML)</label>
+			<label index="tx_armgmap.pi1_lat">Latitude</label>
+			<label index="tx_armgmap.pi1_long">Longitude</label>
+			<label index="tx_armgmap.pi1_sheet2_title">Map Info box settings</label>
+			<label index="tx_armgmap.pi1_title">Info title</label>
+			<label index="tx_armgmap.pi1_address">Address</label>
+			<label index="tx_armgmap.pi1_city">City</label>
+			<label index="tx_armgmap.pi1_zip">Zip</label>
+			<label index="tx_armgmap.pi1_country">Country</label>
+		</languageKey>
+	</data>
+</T3locallang>

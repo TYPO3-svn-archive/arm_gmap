@@ -1,0 +1,28 @@
+plugin.tx_armgmap {
+	view {
+		templateRootPath = {$plugin.tx_armgmap.view.templateRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_armgmap.persistence.storagePid}
+	}
+}
+
+plugin.tx_armgmap._CSS_DEFAULT_STYLE (
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-arm-gmap table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-arm-gmap table th {
+		font-weight:bold;
+	}
+
+	.tx-arm-gmap table td {
+		vertical-align:top;
+	}
+)
